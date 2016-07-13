@@ -36,7 +36,7 @@ public class knapsack{
 
 		for(int c:selected)
 		{
-			System.out.println("weight is "+c);
+			System.out.println("Selected item is of weight "+c);
 		}
 
 		return DP[val.length-1][maxLimit];
@@ -47,7 +47,7 @@ public class knapsack{
 		int[] wt = {1,3,4,5};
 		int[] val = {1,4,5,7};
 		int l = 7;
-		System.out.println("Max Value is 9"+knapsack(wt,val,l));
+		System.out.println("Max Value is "+knapsack(wt,val,l));
 
 	}
 
